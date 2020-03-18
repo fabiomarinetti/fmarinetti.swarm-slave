@@ -13,9 +13,9 @@ None
 Role Variables
 --------------
 
-manager_ipaddress: the manager ip address **REQUIRED!!**
-manager_port: the port the manager listens on (default 3277)
-token: the token for joining the swarm
+- manager_ipaddress: the manager ip address **REQUIRED!!**
+- manager_port: the port the manager listens on (default 3277)
+- token: the token for joining the swarm
 
 Dependencies
 ------------
