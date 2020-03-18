@@ -1,8 +1,8 @@
 ---
 # tasks file for fmarinetti.swarm-slave
 - name: cleanup swarm config
-   command: docker swarm leave --force
-   ignore_errors: true
+  command: "docker swarm leave --force"
+  ignore_errors: true
 
 - name: "join slave {{ inventory_hostname }} to swarm"
   command: "docker swarm join --token {{ token }} {{ manager_ipaddress }}:{{ manager_port }}"
