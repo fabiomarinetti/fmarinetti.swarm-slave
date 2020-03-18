@@ -1,0 +1,4 @@
+---
+# defaults file for fmarinetti.swarm-slave
+manager_ipaddress:
+manager_port: 3277

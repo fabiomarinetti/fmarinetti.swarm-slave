@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+          #    - name: "Include fmarinetti.swarm-slave"
+          #include_role:
+          #name: "fmarinetti.swarm-slave"
