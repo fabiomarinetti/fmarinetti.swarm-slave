@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/fabiomarinetti/fmarinetti.swarm-slave.svg?branch=master)](https://travis-ci.com/fabiomarinetti/fmarinetti.swarm-slave)
+
 Role Name
 =========
 
@@ -14,7 +16,7 @@ Role Variables
 --------------
 
 - manager_ipaddress: the manager ip address **REQUIRED!!**
-- manager_port: the port the manager listens on (default 3277)
+- manager_port: the port the manager listens on (default: 3277)
 - token: the token for joining the swarm
 
 Dependencies
