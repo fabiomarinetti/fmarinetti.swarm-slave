@@ -1,9 +1,7 @@
 [![Build Status](https://travis-ci.com/fabiomarinetti/fmarinetti.swarm-slave.svg?branch=master)](https://travis-ci.com/fabiomarinetti/fmarinetti.swarm-slave)
 
-Role Name
-=========
-
 fmarinetti.swarm-slave
+=========
 
 Add a swarm worker to an existing cluster
 
